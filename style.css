@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px 
+  */
+  font-size: 62.5%;
+}
+
+.header {
+  width: 120rem;
+  margin: 0 auto;
+  background-color: red;
+}
+.btn {
+}
+.again {
+}
+.header__text {
+}
+.header__title {
+}
+.number {
+}
+.section {
+}
+.section_left {
+}
+.section_left__input {
+}
+.check {
+}
+.section_rigth {
+}
+.section_right__score-label {
+}
+.score-label__score {
+}
+.Section_right__highscore-label {
+}
+.highscore-label__highscore {
+}
