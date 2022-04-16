@@ -23,9 +23,13 @@ html {
   /* 10px 
   */
   font-size: 62.5%;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+
+  color: #212529;
+}
+
+body {
   background-color: #e5dbff;
-  color: #212529ff;
 }
 
 /* HEADER */
@@ -58,6 +62,7 @@ html {
 
 .header__text {
   font-size: 2.4rem;
+  letter-spacing: 1.1px;
 }
 
 .header__title {
@@ -68,13 +73,15 @@ html {
 }
 
 .number {
+  text-align: center;
   justify-self: center;
   display: inline-block;
   font-size: 6.2rem;
   font-weight: 700;
   padding: 3.2rem 6.4rem;
-  background-color: white;
+  background-color: #fff;
   border-radius: 1rem;
+  /* width: 25rem;*/
 }
 
 @media (max-width: 1054px) {
@@ -140,7 +147,7 @@ html {
   border-radius: 10px;
 }
 
-.section_rigth {
+.section_right {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -151,11 +158,11 @@ html {
 
 @media (max-width: 1054px) {
   .section_left__input {
-    width: 23rem;
+    width: 20rem;
     font-size: 5.2rem;
   }
 
-  .section_rigth {
+  .section_right {
     font-size: 2.4rem;
   }
 }
@@ -172,7 +179,7 @@ html {
     font-size: 4.4rem;
   }
 
-  .section_rigth {
+  .section_right {
     font-size: 2rem;
   }
 }

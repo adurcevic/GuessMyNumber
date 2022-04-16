@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Antonio Đurčević">
+    <meta name="description" content="Game where you try to correctly guess my number">
+    <link rel="icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +22,7 @@
     <header class="header">
       <div class="container-flex">
         <button class="btn again">Again!</button>
-        <p class="header__text">&lt; between 1 and 20 &gt;</p>
+        <p class="header__text">( between 1 and 20 )</p>
       </div>
       <h1 class="header__title">Guess my number!</h1>
       <div class="number">?</div>
@@ -27,16 +32,17 @@
         <input type="number" class="section_left__input" />
         <button class="btn check">Check!</button>
       </div>
-      <div class="section_rigth">
-        <p class="section_rigth__message">🎰 Start guessing...</p>
+      <div class="section_right">
+        <p class="section_right__message">🎰 Start guessing...</p>
         <p class="section_right__score-label">
           🕹 Score: <span class="score-label__score">20</span>
         </p>
         <p class="Section_right__highscore-label">
           🥇 Highscore:
-          <span class="highscore-label__highscore"></span></p>
+          <span class="highscore-label__highscore">0</span></p>
         </p>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
